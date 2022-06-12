@@ -8,6 +8,6 @@
 every 10 minutes the script will make a new map
 
 you can change map size and mine count with these variables: ```width```, ```height```, ```mines```<br>
-but keep in mind that discord allows only 190 characters for "about me"
+but keep in mind that discord allows only 190 characters in a bio
 
 every field has 5 characters (```||③||```), and new line (```\n```) counts as one character
