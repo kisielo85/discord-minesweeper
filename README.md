@@ -2,7 +2,7 @@
 ## setup
 
 - make sure you have the requests library ```py -m pip install requests```
-- put your discord token in ```token``` variable. [how to get discord token](https://pcstrike.com/how-to-get-discord-token/)
+- put your discord token in ```token``` variable. [(how to get a discord token)](https://pcstrike.com/how-to-get-discord-token/)
 - run the script ```py dc_minesweeper.py```
 
 every 10 minutes the script will make a new map
