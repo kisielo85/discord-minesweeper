@@ -37,6 +37,7 @@ def show(tab):
         for x in range(width):
             t+=" "+consoleNum[tab[y][x]]
         print(t)
+    print()
 
 def tabToText(tab):
     t=""
