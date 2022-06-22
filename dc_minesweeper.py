@@ -1,6 +1,7 @@
 from time import sleep
 import requests
 from random import randrange
+import os
 
 token = "discord_token_here"
 
@@ -50,8 +51,12 @@ def tabToText(tab):
     return t
             
 while(1):
+    if os.name == 'nt':
+      os.system('cls')
+    else:
+      os.system('clear')
     tab=minesweeper()
     show(tab)
     t="UTC+2\n"+tabToText(tab)
     requests.patch(url="https://discord.com/api/v9/users/@me", headers= {"authorization": token}, json = {"bio": t} )
-    sleep(600)
+    sleep(1200)#20min
